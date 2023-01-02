@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.done-reporting-part {
+    position: fixed;
+    top: 18%;
+    left: 36%;
+    height: 66%;
+    width: 29%;
+    z-index: 6;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.green-tick {
+    color: rgb(46, 184, 46);
+    height: 24%;
+    padding: 37px 162px;
+}
+
+/* Thank you message  */
+.thank-you {
+    height: 25%
+}
+
+.thank-you-message {
+    text-align: center;
+    font-weight: 500;
+}
+
+.other-message-report {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Report other options  */
+
+.options-for-done {
+    height: 38%
+}
+
+.report-done-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.default-style-report-done {
+    border-top: 1px solid rgb(217, 217, 217);
+    padding:14px 0px 15px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.default-style-report-done:hover{
+    cursor: pointer;
+}
+
+.addition{
+    border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.report-block{
+    color: rgb(255, 77, 77);
+}
+
+/* Close Button  */
+
+.button-done {
+    height: 13%;
+    padding: 13px 10px;
+}
+
+.report-done-close{
+    background-color: rgb(26, 140, 255);
+    border: transparent;
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+}
+
+.link-for-community-help{
+    text-decoration: none;
+    color: black;
+}
+
+.link-for-community-help:hover{
+    color: black;
+}

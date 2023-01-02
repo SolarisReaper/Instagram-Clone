@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home-box {
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.post-bar {
+    border: 1px solid green;
+    width: 65%;
+    height: 100%;
+}
+
+/* Postbar  */
+
+
+/* SideBar Components */
+
+.side-bar {
+    border: 1px solid red;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.switch{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 50px 0px 50px;
+}
+
+.default-style{
+    padding: 3px;
+}
+
+.profile-image-home-style{
+    height: 50px;
+    width: 50px;
+}
+
+.image{
+
+}
+
+.image:hover{
+    cursor: pointer;
+}
+
+.username{
+    margin-left: 10px;
+    padding: 20px 10px 10px 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.username:hover{
+    cursor: pointer;
+}
+
+.switch-btn{
+    margin-left: auto;
+    color: rgb(51, 153, 255);
+    font-weight: 500;
+    font-size: 13px;
+    padding: 20px 10px 10px 5px;
+}
+
+.switch-btn:hover{
+    cursor: pointer;
+}
+
+/* Suggestion css */
+
+.suggestion{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px 0px 50px;
+}
+
+.suggest-text{
+    font-weight: 500;
+    color: grey;
+    font-size: 15px;
+    padding: 2px 2px 2px 5px;
+}
+
+.suggest-all{
+    font-weight: 500;
+    font-size: 13px;
+    padding: 2px 2px 2px 5px; 
+    padding: 2px 10px 10px 5px;
+    margin-left: auto;
+}
+
+.suggest-all:hover{
+    cursor: pointer;
+}
+
+.sugg-flat-style{
+    display: flex;
+    flex-direction: row;
+}
+
+.suggest-profile{
+    border: 1px solid black;
+
+}
+

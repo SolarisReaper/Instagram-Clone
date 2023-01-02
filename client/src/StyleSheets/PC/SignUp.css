@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Main-SignUp {
+    display: inline-block;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fullContainer {
+    margin: auto;
+    height: fit-content;
+    width: 25%;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer {
+    margin: auto;
+    border: 1px solid rgb(217, 217, 217);
+    width: 100%;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-signUp {
+    font-weight: 500;
+    font-family: Brush Script MT, cursive;
+    font-size: 55px;
+    padding: 20px 0px 0px 0px;
+}
+
+.text-forattract {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(150, 150, 150);
+}
+
+.facebook-login-sizing-input-button {
+    width: 80%;
+    margin: 5px;
+    border-radius: 3px;
+    margin-top: 15px;
+    padding: 5px 5px;
+    border: 0px solid rgb(217, 217, 217);
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(0, 153, 255);
+}
+
+.divider-main-signUp {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 28px;
+}
+
+.divider-signUp {
+    background-color: rgb(217, 217, 217);
+    height: 1px;
+    width: 43%;
+    margin-top: 11px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* Form */
+
+.SignUp {
+    display: flex;
+    flex-direction: column;
+}
+
+.sizing-input-signUp {
+    width: 80%;
+    margin: 5px;
+    border-radius: 3px;
+    padding: 5px 5px;
+    font-size: 12px;
+    border: 1px solid rgb(217, 217, 217);
+}
+
+.sizing-input-signUp:focus {
+    outline-offset: -1px;
+    outline: 1px solid rgb(150, 150, 150);
+}
+
+
+.password-box-signUp {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    outline-offset: -1px;
+    outline: 1px solid rgb(217, 217, 217);
+    border-radius: 3px;
+}
+
+.password-box-signUp:focus-within{
+    outline-offset: -1px;
+    outline: 1px solid rgb(150, 150, 150);
+    border-radius: 3px;
+}
+
+
+
+.password-sizing-input-signUp {
+    width: 100%;
+    border-radius: 3px;
+    padding: 5px 5px;
+    font-size: 12px;
+    border: 0px solid rgb(217, 217, 217);
+}
+
+.password-sizing-input-signUp:focus{
+    outline-offset: -1px;
+    outline: 0px solid rgb(150, 150, 150);
+}
+
+.showSignUp {
+    border: 0px;
+    height: 100%;
+    width: 50px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 5px 5px 5px;
+}
+
+.hideSignUp {
+    border: 0px;
+    height: 100%;
+    width: 40px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 5px 5px 5px;
+}
+
+.companyText-Main {
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgb(160, 160, 160);
+}
+
+.companyText {
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.companyText:hover {
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.facebook-login-sizing-input-button-signUp {
+    width: 80%;
+    margin: 15px 5px 30px 5px;
+    border-radius: 3px;
+    padding: 5px 5px;
+    border: 0px solid rgb(217, 217, 217);
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(0, 153, 255);
+}
+
+.login-in {
+    border: 1px solid rgb(217, 217, 217);
+    margin: -10px 0px 20px 0px;
+    padding: 30px 50px;
+    font-size: 14px;
+    width: 100%;
+    font-weight: 400;
+}
+
+.app-store-signUp {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px -25px;
+}
+
+/* Footer */
+
+.signUp-footer {
+    margin: 20px 19% 0px 19%;
+    padding: 2% 0% 3% 0%;
+}
+
+.footerStyle-signUp {
+    margin: 0% 0% 3% 0%;
+}
+
+.footerListStyleSignUp {
+    display: inline;
+    font-size: 12px;
+    padding: 5px;
+    color: rgb(135, 135, 135);
+}

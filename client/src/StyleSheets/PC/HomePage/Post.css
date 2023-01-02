@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.post {
+    border: 1px solid rgb(230, 230, 230);
+    margin: 40px 20% 0px 20%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+/* Post Header  */
+
+.profile-info {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    display: flex;
+    flex-direction: row;
+}
+
+.post-image {
+    padding: 5px 10px;
+}
+
+.post-profile-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+}
+
+.post-userName {
+    padding: 8px 10px 5px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.dotted {
+    margin-left: auto;
+    padding: 8px 10px 5px 10px;
+}
+
+.dotted:hover {
+    cursor: pointer;
+}
+
+/* Post Body */
+
+.post-image-body {
+    width: 100%;
+}
+
+.username-caption {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 8px 7px 8px;
+}
+
+.username-caption:hover {
+    cursor: pointer;
+}
+
+.username-caption-words {
+    font-size: 14px;
+}
+
+/* Post Footer */
+
+.Footer-set-post {
+    border-top: 1px solid rgb(230, 230, 230);
+}
+
+/* Buttons  */
+.actions {
+    display: flex;
+}
+
+.button-basic-style {
+    padding: 20px 8px 8px 8px;
+}
+
+.button-basic-style:hover {
+    cursor: pointer;
+}
+
+.clicked-heart {
+    color: rgb(255, 51, 51);
+}
+
+.clicked-save {
+    color: rgb(77, 166, 255);
+}
+
+.saved-style {
+    margin-left: auto;
+}
+
+.no-of-likes {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 8px 7px 8px;
+}
+
+/* Comment Box  */
+.comment-box {
+    border-top: 1px solid rgb(230, 230, 230);
+    display: flex;
+    flex-direction: row;
+}
+
+.test:hover {
+    cursor: pointer;
+}
+
+.emoji {
+    width: 7%;
+    padding: 10px;
+}
+
+.comments {
+    border: 1px solid red;
+}
+
+.comment-input-box {
+    width: 83%;
+    padding: 10px;
+}
+
+.input-box {
+    width: 100%;
+    height: 100%;
+    border: transparent;
+}
+
+.input-box:focus {
+    outline: none;
+}
+
+.postting-btn {
+    width: 10%;
+    padding: 10px 10px 0px 10px;
+    font-weight: 500;
+    color: rgb(26, 163, 255)
+}

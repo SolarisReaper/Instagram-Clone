@@ -1,0 +1,73 @@
+.full-page-shadow {
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 3;
+    opacity: 0.6;
+}
+
+.modal-main {
+    position: fixed;
+    width: 29%;
+    border-radius: 20px;
+    z-index: 4;
+    background-color: aliceblue;
+    top: 23%;
+    left: 35%;
+}
+
+/* Image Header Style  */
+
+.image-header {
+    width: 100%;
+    height: fit-content;
+}
+
+.header-profile-image {
+    margin: 10px 0px 6px 0px;
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    border: 1px solid red;
+}
+
+.sync-text {
+    font-size: 20px;
+}
+
+.sync-site-text {
+    font-size: 15px;
+    color: rgb(150, 150, 150);
+    padding-bottom: 10px;
+}
+
+/* Lists in the modal  */
+
+.rest-body {
+    width: 100%;
+}
+
+.list-of-functions {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.list-of-modal-image-upload{
+    width: 100%;
+    padding: 15px;
+    border-top: 1px solid rgb(217, 217, 217);
+    font-size: 14px;
+}
+
+.list-of-modal-image-upload:hover{
+    cursor: pointer;
+}
+
+

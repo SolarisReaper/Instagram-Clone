@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-page-design {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    width: 70%;
+}
+
+.profile-main-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(217,217,217);  */
+    width: 100%;
+    height: 63vh;
+}
+
+/* Profile Data  */
+.profiledetails {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.profile-image {
+    width: 30%;
+    padding: 5% 0% 3% 7%;
+}
+
+.profile-image-style {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.profile-image-style-img {
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 100px;
+}
+
+/* profile Details beside picture  */
+.profile-details-internal {
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Edit profile button  */
+.Edit-profile {
+    margin-top: 15px;
+}
+
+.Edit-profile-btn {
+    border: 1px solid rgb(190, 190, 190);
+    font-size: 15px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: white;
+}
+
+/* Settings Button  */
+
+.settings {}
+
+/* HihgLights  */
+.highlights {
+    display: flex;
+    flex-direction: row;
+    /* border:1px solid black; */
+    height: 30%;
+}
+
+/* Title Set  */
+
+.title-set {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+
+.base-style {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.base-style-profile {
+    padding: 0px 16px 5px 16px;
+}

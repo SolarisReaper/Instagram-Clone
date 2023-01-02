@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Main-Login {
+    display: inline-block;
+    height: 130vh;
+    width: 98vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+/* Body */
+
+.body {
+    height: 90vh;
+    width: 56vw;
+    margin: 2% 0% 0% 23%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Picture */
+
+.picture {
+    height: 100%;
+    width: 50%;
+}
+
+.image-back {
+    height: 88%;
+    width: 40%;
+    position: absolute;
+    top: 28px;
+    left: 14%;
+}
+
+.image-front {
+    height: 90%;
+    width: 21%;
+    position: absolute;
+    top: 43px;
+    left: 30%;
+}
+
+/* Login Form */
+
+.LoginForm {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.border-login-form {
+    border: 1px solid rgb(217, 217, 217);
+    margin: 20px
+}
+
+.title {
+    font-weight: 500;
+    font-family: Brush Script MT, cursive;
+    font-size: 55px;
+    padding: 20px 0px 20px 0px;
+}
+
+.Login {
+    display: flex;
+    flex-direction: column;
+}
+
+.sizing-input {
+    width: 70%;
+    margin: 5px;
+    border-radius: 3px;
+    padding: 5px 5px;
+    font-size: 12px;
+    border: 1px solid rgb(217, 217, 217);
+}
+
+.sizing-input:focus {
+    outline-offset: -1px;
+    outline: 1px solid rgb(150, 150, 150);
+}
+
+.password-box {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    outline-offset: -1px;
+    outline: 1px solid rgb(217, 217, 217);
+    border-radius: 3px;
+}
+
+.password-box:focus-within {
+    outline-offset: -1px;
+    outline: 1px solid rgb(150, 150, 150);
+    border-radius: 3px;
+}
+
+
+.password-sizing-input {
+    width: 100%;
+    border-radius: 3px;
+    padding: 5px 5px;
+    font-size: 12px;
+    border: 0px solid rgb(217, 217, 217);
+}
+
+.password-sizing-input:focus {
+    outline-offset: -1px;
+    outline: 0px solid rgb(150, 150, 150);
+}
+
+
+
+.show {
+    border: 0px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    height: 100%;
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+}
+
+.hide {
+    border: 0px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    height: 100%;
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+.sizing-input-button {
+    width: 70%;
+    margin: 5px;
+    border-radius: 3px;
+    margin-top: 15px;
+    padding: 5px 5px;
+    border: 0px solid rgb(217, 217, 217);
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(51, 133, 255);
+
+}
+
+.divider-main {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 50px;
+}
+
+.divider {
+    background-color: rgb(217, 217, 217);
+    height: 1px;
+    width: 43%;
+    margin-top: 11px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.text-OR {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(150, 150, 150);
+}
+
+.link-me {
+    text-decoration: none;
+    color: rgb(0, 34, 102);
+}
+
+.link-me:hover {
+    text-decoration: none;
+    color: rgb(0, 34, 102);
+}
+
+.login-facebook {
+    padding: 15px 50px;
+    color: rgb(0, 34, 102);
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.forgot-password {
+    padding: 0px 50px 20px 50px;
+    color: rgb(0, 34, 102);
+    font-size: 12px;
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+.invalid {
+    font-size: 13px;
+    color: rgb(255, 77, 77);
+    margin-bottom: 15px;
+}
+
+/* Sign Up */
+
+.sign-up {
+    border: 1px solid rgb(217, 217, 217);
+    margin: -10px 20px 20px 20px;
+    padding: 20px 50px;
+    font-size: 14px;
+}
+
+.link-signUp {
+    text-decoration: none;
+    color: rgb(51, 133, 255);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Get App */
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-link {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 0px 40px;
+}
+
+.image-link-app {
+    height: 55px;
+    width: 150px;
+}
+
+/* Footer */
+
+.footerStyle {
+    margin: 5% 20% 3% 20%;
+}
+
+.footerListStyle {
+    display: inline;
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 3px;
+    color: rgb(135, 135, 135);
+}
+
+.footerListStyle1 {
+    display: inline;
+    font-size: 12px;
+    padding: 8px;
+    color: rgb(135, 135, 135);
+}
